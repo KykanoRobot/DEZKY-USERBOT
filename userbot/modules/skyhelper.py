@@ -11,8 +11,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def usit(e):
     await e.edit(
         f"**Halo {DEFAULTUSER} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        "\n[Telegram](t.me/skyzuuuu)"
-        "\n[Repo](https://github.com/Skyzu/skyzu-userbot)"
+        "\n[Telegram](t.me/staytomoonn)"
+        "\n[Repo](https://github.com/KykanoRobot/DEZKY-USERBOT)"
     )
 
 
@@ -20,14 +20,14 @@ async def usit(e):
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Skyzu/skyzu-userbot/skyzu-userbot/varshelper.txt)"
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/KykanoRobot/DEZKY-USERBOT/DEZKY-USERBOT/varshelper.txt)"
     )
 
 
 CMD_HELP.update(
     {
         "helper": "`.lhelp`\
-\nUsage: Bantuan Untuk Skyzuu-Userbot.\
+\nUsage: Bantuan Untuk DEZKY-USERBOT.\
 \n`.vars`\
 \nUsage: Melihat Daftar Vars."
     }

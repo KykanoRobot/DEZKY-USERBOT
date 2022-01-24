@@ -116,9 +116,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/Skyzu/skyzu-userbot"
+    "UPSTREAM_REPO_URL", "https://github.com/KykanoRobot/DEZKY-USERBOT"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Skyzuu-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "DEZKY-USERBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -219,11 +219,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/fd08937c4ae6cb1303731.jpg")
+              or "https://telegra.ph/file/c27fa8e89de87b33db219.jpg")
 
 # Default .helpme Logo
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/fd08937c4ae6cb1303731.jpg")
+              or "https://telegra.ph/file/c27fa8e89de87b33db219.jpg")
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✗"
@@ -494,7 +494,7 @@ with bot:
                     f"➠ **Atau** Kalian Bisa Klik /notes Dibawah Jika Ada\n",
                     buttons=[
                         [Button.url("【﻿Ｃｈａｎｎｅｌ】",
-                                    "https://t.me/ProjectSkyzu")],
+                                    "https://t.me/DezkyProject")],
                     ],
                 )
 
@@ -505,7 +505,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @skyzu\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @staytomoonn\n\n",
                     buttons=[
                         [
                             custom.Button.inline("ꜱᴇᴛᴛɪɴɢꜱ", data="settings"),
@@ -570,10 +570,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Skyzu Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Dezky Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 180 Modules__.\n\n"
-                    f"© @skyzusupport")
+                    f"© @leave_to_me")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -649,7 +649,7 @@ with bot:
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var SKYZU_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command skyzualive__.\n\n"
-                    f"© @skyzusupport"
+                    f"© @leave_to_me"
                 )
                 await event.edit(
                     text,
@@ -679,7 +679,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @skyzusupport")
+                    f"© @leave_to_me")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -708,7 +708,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @skyzusupport")
+                    f"© @leave_to_me")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -735,7 +735,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @skyzusupport")
+                    f"© @leave_to_me")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -760,11 +760,11 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk 𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk ⚡DEZKY-USERBOT⚡​, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @skyzusupport")
+                    f"© @leave_to_me")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -826,7 +826,7 @@ with bot:
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
                     f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
-                    f"© @skyzusupport"
+                    f"© @leave_to_me"
                 )
                 await event.edit(
                     text,
@@ -870,7 +870,7 @@ with bot:
                     file=roselogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/ProjectSkyzu")],
+                        [Button.url("ᴄʜᴀɴɴᴇʟ", "t.me/DezkyProject")],
                     ],
                 )
 
@@ -891,21 +891,21 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari **⚡𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
+                    "Bantuan Dari **⚡DEZKY-USERBOT⚡**",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
-                                         text="""°𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓°""",
-                                         buttons=[[custom.Button.url("sᴋʏᴢᴜ​",
-                                                                     "https://github.com/Skyzu/skyzu-userbot"),
+                result = builder.article(" **⚡DEZKY-USERBOT⚡**",
+                                         text="""°DEZKY-USERBOT°""",
+                                         buttons=[[custom.Button.url("DEZKY​",
+                                                                     "t.me/staytomoonn"),
                                                    custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/ProjectSkyzu"),
+                                                                     "t.me/DezkyProject"),
                                                    ],
                                                   [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
-                                                                     "https://github.com/Skyzu/skyzu-userbot/LICENSE",
+                                                                     "https://github.com/KykanoRobot/DEZKY-USERBOT/LICENSE",
                                                                      )],
                                                   ],
                                          link_preview=False,
@@ -944,8 +944,8 @@ with bot:
                     link_preview=True,
                     buttons=[
                         [
-                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/skyzusupport"),
-                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/ProjectSkyzu"),
+                            Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/leave_to_me"),
+                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/DezkyProject"),
                         ],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],

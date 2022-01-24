@@ -17,15 +17,15 @@ from userbot import ALIVE_NAME, CMD_HELP, DEVS, StartTime
 from userbot.events import register
 
 absen = [
-    "**Eh ada skyzu**",
-    "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
-    "**Hadir kak** 😉",
-    "**Hadir bang sky** 😁",
-    "**Hadir kak maap telat** 🥺",
+    "**Eh ada Dezky** 😘",
+    "**Hadir Ganteng** 🤗",
+    "**Hadir Cok** 😎",
+    "**Hadir Kak** 😉",
+    "**Hadir Bang Dezky** 😁",
+    "**Hadir Kak Maap Telat** 🥺",
 ]
 
-roas = [
+bacot = [
     "DUH GINI NIH BOCAH YG LAHIR DI GUBUK BAMBU REOT + GAPUNYA HARGA DIRI, PADAHAL MAH DARI KECIL DIAJARIN SM EMAKNYA GABOLEH SONGONG SM MAJIKAN MASIH AJA SONGONG, MENDING LO URUSIN DULU GOBLOK KELUARGA LO YG PENYAKITAN ITU, MANA BAPA LO KAKINYA BOROK BEGITU AJG BERNANAH BAU AMIS IDIH GELI BET GELI GUA LIATNYA, NAH SEKALIAN TUH URUSIN JUGA ADE LO TUH, KALO BUKAN KARENA GUA MAH ADE LO UDAH MENINGGAL KENA TUMOR TOLOL MAKANYA LO KUDU SUJUD DEPAN GUA YAKAN,EMAK LO JUGA TUH JAGAIN UDAH BISU BEGITU YAKAN TAKUTNYA JATOH GABISA TREAK, MAKANYA NIH YA JANGAN KEBANYAKAN KONSUMSI SASA MICIN GOBLOK LIAT KAN EFEKNYA LO JADI KEK BOCAH AYAN BEGITU, SAMPE² LO BERANI GITU YAKAN NYENGGET JEMURAN ORANG SAMPE LO DIPUKULIN TRUS DI INJEK² SAMA WARGA SEKAMPUNGAN, GINI YA GUA KASIH TAU NIH SAMA LO NIH KALO UDA MISKIN KAGA USAH BELAGU SEGALA TOLOL, MIKIR LO MAKAN AJA SUSAH SAMPE NGEMIS² DI KOMPLEK PERUMAHAN GUA SAMPE DI USIR SAMA SATPAM KOMPLEK GUA, BERAS AJA LO BOLEH DIBAGI SAMA EMAK GUA YAKAN LAUK PAUK IKAN, AYAM, DAGING SEGALA RUPA AJA LO BOLEH NYOLONG DARI PASAR BOCAH KAYA LO MAH GIZINYA KURANG DONGO SABAN HARI MAKAN INDOMI 1 PAKE TELOR DOANG ITU JUGA JOINAN SM KELUARGA LU, KARENA APA?, YA KARENA LO MISKIN GA MAMPU BELI MAKANAN YG BERGIZI, DIKASIH KUAH SAYUR KANGKUNG JUGA MAO TOLOL ITU JUGA UDAH BERSYUKUR BISA MAKAN MAKANAN SELAEN MI INSTAN YAKAN SECARA LO GABISA GITU KEK GUA YAKAN MAKAN APA YG GUA MAO LAH ELO MAKAN MAKANAN TONG SAMPAH JUGA UDAH ALHAMDULILLAH BANGET AJG",
     "BUAT LO KONTOL NIH KALO UDAH HINA GAUSAH SOK SOK NGEHINA HINA GUA KONTOL, GUA TERLALU SUCI BUAT LU YANG HINA ITU ADUHHH. SINI GUA LUDAHIN DLU LU BIAR DIRI LU SUCI KARENA LU TAU LUDAH GUA ITU MULIA SEKALI",
     "PUNYA EMAK JANGAN JELEK GUE TAU EMAK LO UDAH MUKA JELEK ITEM BAT ITEM KEK OLI MOTOR BELOM DI GANTI SETAHUN HAHA TERUS BADANNYA GENDUT BAT GENDUT TETENYA KONDOR LAGI PANTESAN AJA KAGA LAKU HAHAHA NIH GUA KASIH TAU YE SAMA LO BOKAP LO AJE KERJAANNYA MAEN JUDI MULU BORO BORO MENANG BOKAP LO AJE MAEN JUDI KALAH MULU TOLOL HAHA UDAH NGUTANG SANA SINI AMPE DI KEJAR DEB COLLECTOR ITU BOKAP LO LAGI DI BURU OLEH DEP COLECTOR MANGKANYA KALO UDAH TAU MISKIN KERJAANNYA JANGAN MAEN JUDI MULU TOLOL SAMA NGUTANG CARI KERJA YANG HALAL SONO HAHA",
@@ -64,14 +64,14 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1964264380, pattern=r"^.absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
 async def _(skyzuu):
     await skyzuu.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.roas$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.bacot$")
 async def _(skyzuu):
-    await skyzuu.reply(random.choice(roas))
+    await skyzuu.reply(random.choice(bacot))
 
 
 @register(outgoing=True, pattern="^.sping$")
@@ -108,7 +108,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** %sms  \n"
-        f"**➾Branch : ** Skyzu-Userbot \n" % (duration)
+        f"**➾Branch : ** Dezky-Userbot \n" % (duration)
     )
 
 
@@ -146,7 +146,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**\n"
+        f"**⚡DEZKY-USERBOT​⚡**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -170,7 +170,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**\n"
+        f"**⚡DEZKY-USERBOT​⚡**\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -225,7 +225,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ⚡skyzu-userbot⚡"
+        "✧ **BOT:** ⚡Dezky-Userbot⚡"
     )
 
 

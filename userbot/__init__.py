@@ -897,19 +897,26 @@ with bot:
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡DEZKY-USERBOT⚡**",
-                                         text="""°DEZKY-USERBOT°""",
-                                         buttons=[[custom.Button.url("DEZKY​",
-                                                                     "t.me/staytomoonn"),
-                                                   custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/DezkyProject"),
-                                                   ],
-                                                  [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
-                                                                     "https://github.com/KykanoRobot/DEZKY-USERBOT/LICENSE",
-                                                                     )],
-                                                  ],
-                                         link_preview=False,
-                                         )
+                result = builder.article(
+                    " **⚡DEZKY-USERBOT⚡**",
+                    text="""°DEZKY-USERBOT°""",
+                    buttons=[
+                        [
+                            custom.Button.url(
+                                "DEZKY​",
+                                "t.me/staytomoonn"),
+                            custom.Button.url(
+                                "ᴄʜᴀɴɴᴇʟ​",
+                                "t.me/DezkyProject"),
+                        ],
+                        [
+                            custom.Button.url(
+                                "ʟɪᴄᴇɴsᴇ​",
+                                "https://github.com/KykanoRobot/DEZKY-USERBOT/LICENSE",
+                            )],
+                    ],
+                    link_preview=False,
+                )
             await event.answer([result] if result else None)
 
         @ tgbot.on(

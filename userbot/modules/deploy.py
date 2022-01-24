@@ -25,7 +25,7 @@ async def _(event):
     await event.edit("Deploying...")
 
     animation_chars = [
-        "Heroku Connecting To Latest Github Build (Skyzu/Skyzu-Userbot)",
+        "Heroku Connecting To Latest Github Build (KykanoRobot/DEZKY-USERBOT)",
         f"Build started by user `{DEFAULTUSER}`",
         f"Deploy `535a74f0` by user `{DEFAULTUSER}`",
         "`Restarting Heroku Server...`",
@@ -42,10 +42,10 @@ async def _(event):
         "telethon.network.mtprotosender -\nINFO - Connecting to 91.108.56.146:443/TcpFull...",
         "telethon.network.mtprotosender -\nINFO - Connection to 91.108.56.146:443/TcpFull complete!",
         "telethon.network.mtprotosender -\nINFO - Received response without parent request",
-        "INFO - Skyzu-Userbot: Logged in as 557667062",
-        "INFO - Skyzu-Userbot: Successfully...",
+        "INFO - Dezky-Userbot: Logged in as 557667062",
+        "INFO - Dezky-Userbot: Successfully...",
         "919852+00:00 app[worker.1]: 919 - Rose-Userbot -",
-        "INFO - ⚡ Skyzu-Userbot ⚡ ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
+        "INFO - ⚡ Dezky-Userbot ⚡ ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**",
     ]
 

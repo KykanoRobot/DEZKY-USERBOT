@@ -321,8 +321,8 @@ async def redis(alive):
         f"┃✧ **Bot Ver  :** {BOT_VER} \n"
         f"┃✧ **Modules  :** {len(modules)} Modules \n"
         f"┃✧ **GitHub   :** [UserBot](https://github.com/KykanoRobot/DEZKY-USERBOT) \n"
-        f"┃✧ **Owner    :** [Dezky](https://t.me/skyzu) \n"
-        f"┃✧ **support  :** [groups](https://t.me/staytomoonn) \n"
+        f"┃✧ **Owner    :** [Dezky](https://t.me/staytomoonn) \n"
+        f"┃✧ **support  :** [groups](https://t.me/leave_to_me) \n"
         f"╰✠╼━━━━━━━━━━━━━━━━✠╯"
     )
     if ALIVE_LOGO:

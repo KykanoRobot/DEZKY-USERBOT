@@ -45,28 +45,28 @@ async def typewriter(typew):
 @register(outgoing=True, pattern="^.kenalin(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("☑️ `putra wibu`")
+    await typew.edit("☑️ `dezky wibu`")
     sleep(2)
-    await typew.edit("✅ `putra wibu`")
+    await typew.edit("✅ `dezky wibu`")
     sleep(1)
-    await typew.edit("☑️ `duta stres`")
+    await typew.edit("☑️ `pikri stres`")
     sleep(2)
-    await typew.edit("✅ `duta stres`")
+    await typew.edit("✅ `pikri stres`")
     sleep(1)
-    await typew.edit("☑️ `fajar Gajelas`")
+    await typew.edit("☑️ `razor Gajelas`")
     sleep(2)
-    await typew.edit("✅ `fajar Gajelas`")
+    await typew.edit("✅ `razor Gajelas`")
     sleep(1)
-    await typew.edit("☑️ `ken Wibu Sangean`")
+    await typew.edit("☑️ `penyu Wibu Sangean`")
     sleep(2)
-    await typew.edit("✅ `ken Wibu Sangean`")
+    await typew.edit("✅ `penyu Wibu Sangean`")
     sleep(1)
-    await typew.edit("☑️ `xxinu Autis`")
+    await typew.edit("☑️ `ndaa Autis`")
     sleep(2)
-    await typew.edit("✅ `xxinu Autis`")
+    await typew.edit("✅ `ndaa Autis`")
     sleep(1)
     await typew.edit(
-        "`⚡ Cuma Skyzu Yang Paling Waras, Baik Hati, Dan Tidak Sombong :v`"
+        "`⚡ Cuma Dezky Yang Paling Waras, Baik Hati, Dan Tidak Sombong :v`"
     )
 
 
@@ -121,32 +121,32 @@ async def perkenalan(event):
 # Perkenalan
 
 
-@register(outgoing=True, pattern="^.skyzu(?: |$)(.*)")
+@register(outgoing=True, pattern="^.dezky(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("**Ehh Lu Mau Tau Gak?**")
     sleep(1)
-    await typew.edit("**Sih Skyzu mukanya mirip babi😂**")
+    await typew.edit("**Sih Dezky mukanya mirip babi😂**")
     sleep(1)
     await typew.edit("**Ehh Gak Bercanda Deh😁**")
     sleep(1)
-    await typew.edit("**Emang Bener Sih Skyzu Mukanya Kaya Babi🙈**")
+    await typew.edit("**Emang Bener Sih Dezky Mukanya Kaya Babi🙈**")
     sleep(1)
-    await typew.edit("**Ehh Engga Deh,Skyzu Kan Ganteng Kaya Artis Korea😄**")
+    await typew.edit("**Ehh Engga Deh,Dezky Kan Ganteng Kaya Artis Korea😄**")
     sleep(1)
     await typew.edit("**Tapi Boong😂**")
     sleep(1)
     await typew.edit("**HAHAHAHAHAHAHA**")
     sleep(1)
-    await typew.edit("**Udah Ahh Takut Skyzu Nangis Minta Balon😂**")
+    await typew.edit("**Udah Ahh Takut Dezky Nangis Minta Balon😂**")
     sleep(1)
-    await typew.edit("**Maaf Ya Skyzu Ganteng Bercanda😁**")
+    await typew.edit("**Maaf Ya Dezky Ganteng Bercanda😁**")
     sleep(1)
     await typew.edit("**Tapi Bo'ong Hiyahiyahiya**")
 
 
-# Create by myself @skyzuex
+# Create by myself @staytomoonn
 
 
 CMD_HELP.update(
@@ -162,8 +162,8 @@ CMD_HELP.update(
         \nUsage : Member Goblok\
         \n\n Cmd : `.kenalin`\
         \nUsage : Awokwok\
-        \n\n Cmd : `.skyzu`\
-        \nUsage : buat ngeledek skyzu\
+        \n\n Cmd : `.dezky`\
+        \nUsage : buat ngeledek dezky\
         \n\n Cmd : `.p`\
         \nUsage : Untuk Memberi Salam\
     "

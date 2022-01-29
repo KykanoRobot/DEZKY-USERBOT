@@ -94,7 +94,7 @@ async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
         "\n[⚡ Dezky-UserBot Repo](https://github.com/KykanoRobot/DEZKY-USERBOT/blob/DEZKY-USERBOT/README.md)"
-        "\n[Setup Guide - Basic](https://telegra.ph/file/5dba68fdb2949428ff5b8.jpg)"
+        "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)"
     )
 

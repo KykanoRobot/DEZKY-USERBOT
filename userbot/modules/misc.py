@@ -94,7 +94,7 @@ async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
         "\n[⚡ Dezky-UserBot Repo](https://github.com/KykanoRobot/DEZKY-USERBOT/blob/DEZKY-USERBOT/README.md)"
-        "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
+        "\n[Setup Guide - Basic](https://telegra.ph/file/5dba68fdb2949428ff5b8.jpg)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)"
     )
 
@@ -118,11 +118,14 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
-        "𝗥𝗲𝗽𝗼 🇮🇩\n"
-        "╰⎆ [⚡️Dezky-Userbot⚡️​](https://github.com/KykanoRobot/DEZKY-USERBOT)\n"
-        "❏ **Oᴡɴᴇʀ​** ⎆ [DEZKY](t.me/staytomoonn)\n"
-        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/leave_to_me)\n"
-    )
+        Hey, I am using 🥀
+DEZKY-USERBOT 🇲🇨
+━━━━━ •  • ❈ •  • ━━━━
+"🟨 Repo ⎆ [🌹Dezky-Userbot🌹​](https://github.com/KykanoRobot/DEZKY-USERBOT)\n"
+"🟩 Oᴡɴᴇʀ​ ⎆ [DEZKY](t.me/staytomoonn)\n"
+"🟦 Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/leave_to_me)\n"
+"🟪 Channel ⎆ [Channel](t.me/DezkyProject)\n"
+━━━━ •  • ❈ •  • ━━━━ Thanks For Using me💞
 
 
 @register(outgoing=True, pattern="^.raw$")

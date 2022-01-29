@@ -126,6 +126,7 @@ async def repo_is_here(wannasee):
 "🟦 Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/leave_to_me)\n"
 "🟪 Channel ⎆ [Channel](t.me/DezkyProject)\n"
 "━━━━ •  • ❈ •  • ━━━━ Thanks For Using me💞"
+)
 
 @register(outgoing=True, pattern="^.raw$")
 async def raw(event):

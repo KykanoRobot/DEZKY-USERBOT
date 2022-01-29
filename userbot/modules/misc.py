@@ -118,8 +118,8 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
-        Hey, I am using 🥀
-DEZKY-USERBOT 🇲🇨
+        "Hey, I am using 🥀"
+"DEZKY-USERBOT 🇲🇨"
 ━━━━━ •  • ❈ •  • ━━━━
 "🟨 Repo ⎆ [🌹Dezky-Userbot🌹​](https://github.com/KykanoRobot/DEZKY-USERBOT)\n"
 "🟩 Oᴡɴᴇʀ​ ⎆ [DEZKY](t.me/staytomoonn)\n"

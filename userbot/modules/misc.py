@@ -119,15 +119,15 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
         "Hey, I am using 🥀\n"
-"DEZKY-USERBOT 🇲🇨\n"
-"━━━━━ •  • ❈ •  • ━━━━\n"
-"🟨 Repo ⎆ [🌹Dezky-Userbot🌹​](https://github.com/KykanoRobot/DEZKY-USERBOT)\n"
-"🟩 Oᴡɴᴇʀ​ ⎆ [DEZKY](t.me/staytomoonn)\n"
-"🟦 Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/leave_to_me)\n"
-"🟪 Channel ⎆ [Channel](t.me/DezkyProject)\n"
-"━━━━ •  • ❈ •  • ━━━━\n"
-"Thanks For Using me💞"
-)
+        "DEZKY-USERBOT 🇲🇨\n"
+        "━━━━━ •  • ❈ •  • ━━━━\n"
+        "🟨 Repo ⎆ [🌹Dezky-Userbot🌹​](https://github.com/KykanoRobot/DEZKY-USERBOT)\n"
+        "🟩 Oᴡɴᴇʀ​ ⎆ [DEZKY](t.me/staytomoonn)\n"
+        "🟦 Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/leave_to_me)\n"
+        "🟪 Channel ⎆ [Channel](t.me/DezkyProject)\n"
+        "━━━━ •  • ❈ •  • ━━━━\n"
+        "Thanks For Using me💞"
+    )
 
 
 @register(outgoing=True, pattern="^.raw$")

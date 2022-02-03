@@ -125,6 +125,7 @@ async def repo_is_here(wannasee):
         "🟩 Oᴡɴᴇʀ​ ⎆ [DEZKY](t.me/staytomoonn)\n"
         "🟦 Sᴜᴘᴘᴏʀᴛ​ ⎆ [groups](t.me/leave_to_me)\n"
         "🟪 Channel ⎆ [Channel](t.me/DezkyProject)\n"
+        "⬜ Instagram ⎆ [Instagram](https://www.instagram.com/andahmd_/)\n"
         "━━━━ •  • ❈ •  • ━━━━\n"
         "Thanks For Using me💞"
     )

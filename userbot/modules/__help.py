@@ -20,7 +20,7 @@ async def yardim(event):
             await event.delete()
         else:
             await event.edit(
-                "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan.`"
+                "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan. Nyalakan Inline Mode dan Inline Location data. settings bot kamu di @botfather.`"
             )
     except Exception:
         return await event.edit(

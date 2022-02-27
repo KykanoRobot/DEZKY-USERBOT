@@ -26,7 +26,10 @@ GCAST_BLACKLIST = [
     -1001459701099,  # CatUserbotSupport
     -1001109837870,  # TelegramBotIndonesia
     -1001752592753,  # Skyzusupport
-    -1001795125065,  # BagaskaraSupport
+    -1001795125065,  # Bagaskara Support
+    -1001699144606,  # Kasta Support
+    -1001692751821,  # Ram Support
+    -1001687155877,  # Cilik Support
 ]
 
 

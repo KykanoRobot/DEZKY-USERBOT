@@ -5,12 +5,14 @@
 
 import random
 
-from userbot import CMD_HELP
+from telethon.tl.types import (
+    InputMessagesFilterPhotos,
+    InputMessagesFilterVideo,
+    InputMessagesFilterVoice,
+)
+
+from userbot import CMD_HELP, DEFAULTUSER
 from userbot.events import register
-from userbot import DEFAULTUSER
-from telethon.tl.types import InputMessagesFilterVideo
-from telethon.tl.types import InputMessagesFilterVoice
-from telethon.tl.types import InputMessagesFilterPhotos
 
 
 @register(outgoing=True, pattern=r"^\.asupan$")
@@ -32,6 +34,7 @@ async def _(event):
     except Exception:
         await event.edit("Tidak bisa menemukan video asupan.")
 
+
 @register(outgoing=True, pattern=r"^\.desah$")
 async def _(event):
     try:
@@ -50,7 +53,8 @@ async def _(event):
         await event.delete()
     except Exception:
         await event.edit("Tidak bisa menemukan desahan.")
-        
+
+
 @register(outgoing=True, pattern=r"^\.ayang$")
 async def _(event):
     try:

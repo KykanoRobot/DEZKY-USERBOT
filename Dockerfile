@@ -3,6 +3,8 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ BY DEZKY-USERBOT ━━━━━
 
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install ffmpeg -y
 RUN git clone -b DEZKY-USERBOT https://github.com/KykanoRobot/DEZKY-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools

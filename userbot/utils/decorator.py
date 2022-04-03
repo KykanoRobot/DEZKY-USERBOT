@@ -54,7 +54,7 @@ def dezky_cmd(
         else:
             dezky_ = "\\" + CMD_HANDLER
             sudo_ = "\\" + SUDO_HANDLER
-            dezky_reg = re.compile(dekzy_ + pattern)
+            dezky_reg = re.compile(dezky_ + pattern)
             sudo_reg = re.compile(sudo_ + pattern)
             if command is not None:
                 cmd1 = dezky_ + command

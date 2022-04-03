@@ -5,30 +5,33 @@
 #
 """ Userbot start point """
 
+import sys
 from importlib import import_module
-from sys import argv
 
-from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
-from userbot import BOT_VER, LOGS, bot
-from userbot.modules import ALL_MODULES
-
-INVALID_PH = (
-    "\nERROR: The Phone No. entered is INVALID"
-    "\n Tip: Use Country Code along with number."
-    "\n or check your phone number and try again !"
+from userbot import (
+    ALIVE_NAME,
+    BOT_TOKEN,
+    BOT_USERNAME,
+    BOT_VER,
+    BOTLOG_CHATID,
+    LOGS,
+    UPSTREAM_REPO_BRANCH,
+    bot,
+    call_py,
 )
+from userbot.modules import ALL_MODULES
+from userbot.utils import autobot
 
 try:
+    for module_name in ALL_MODULES:
+        imported_module = import_module("userbot.modules." + module_name)
     bot.start()
-except PhoneNumberInvalidError:
-    print(INVALID_PH)
-    exit(1)
-
-for module_name in ALL_MODULES:
-    imported_module = import_module("userbot.modules." + module_name)
-
-
-LOGS.info(f"⚡Dezky - Userbot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    call_py.start()
+    user = bot.get_me()
+    LOGS.info(f"⚡Dezky - Userbot⚡ ⚙️ V{BOT_VER} [ TELAH DIAKTIFKAN! ]")
+except BaseException as e:
+    LOGS.info(str(e), exc_info=True)
+    sys.exit(1)
 
 
 if len(argv) not in (1, 3, 4):

